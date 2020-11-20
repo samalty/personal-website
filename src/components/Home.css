@@ -1,0 +1,102 @@
+.home{
+    padding-left: 120px;
+    background-color: #f2f2f2;
+    background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
+    text-align: center;
+}
+
+.home-container{
+    max-width: 600px;
+    display: inline-block;
+}
+
+html,
+body,
+.home,
+.home-container{
+    min-height: 100vh;
+}
+
+.title{
+    width: 350px;
+    height: 200px;
+    opacity: 0.5;
+    background: linear-gradient(to right bottom, #001a33 50%, #f2f2f2 50%);
+    margin: 0 auto;
+    margin-top: 35vh;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    -webkit-box-shadow: 20px 20px 25px -10px rgba(211,211,211,1);
+    -moz-box-shadow: 20px 20px 25px -10px rgba(211,211,211,1);
+    box-shadow: 20px 20px 25px -10px rgba(211,211,211,1);
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.title-text{
+    font-size: 40px;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 1);
+    color: #f2f2f2;
+    font-family: 'Major Mono Display', monospace;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes rise {
+    0%{
+        transform: translateY(500px);
+        animation-timing-function: ease-out;
+    }
+    60%{
+        transform: translateY(-100px);
+        animation-timing-function: ease-in;
+    }
+    80%{
+        transform: translateY(50px);
+        animation-timing-function: ease-out;
+    }
+    100%{
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .home{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .home-container{
+        width: 100%;
+    }
+    .title{
+        width: 70%;
+        margin: auto;
+        margin-top: 50%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .title-text{
+        font-size: 30px;
+    }
+}

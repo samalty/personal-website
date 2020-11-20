@@ -1,0 +1,171 @@
+html, body {
+  background-color: #000000;
+}
+
+.App {
+  padding: 0;
+}
+
+.App-header {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.navbar-container{
+  margin-top: 0;
+  padding: 0;
+}
+.navbar{
+  width: 120px;
+  height: 100vh;
+  color: #ffffff;
+  position: fixed;
+  margin-top: 0px;
+  text-align: center;
+}
+ul{
+  margin-top: 0;
+  padding: 0;
+  height: 100vh;
+  list-style-type: none;
+  overflow: auto;
+}
+
+li{
+  list-style: none;
+  display: block;
+  width: 120px;
+}
+
+.nav-tab{
+  box-sizing: border-box;
+  padding-top: 3vh;
+  background: -webkit-linear-gradient(0deg, #060d13,#12273b);
+  height: 20vh;
+  border-top: 1px solid #d3d3d3;
+}
+.material-icons{
+  font-size: 40px;
+  color: #ffffff;
+  display: block;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.42);
+  z-index: 99;
+}
+.nav-text{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 12px;
+  color: #ffffff;
+  z-index: 99;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.42);
+}
+.nav-text-hidden{
+  visibility: hidden;
+}
+.hvr-sweep-to-right:before {
+  background: rgba(0, 0, 0, 0.2);
+}
+.click-scroll{
+  cursor: pointer;
+}
+
+.page-header{
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+  width: 100%;
+  background-color: #12273b;
+  border-bottom: 2px solid #d3d3d3;
+  margin-top: 0;
+}
+
+.header-text{
+  font-family: 'Major Mono Display', monospace;
+  padding-left: 120px;
+  color: #d3d3d3;
+}
+
+.scrollTop{
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  bottom: 25px;
+  right: 25px;
+  cursor: pointer;
+  background-color: #11273b;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
+  opacity: 0.8;
+  transition: 0.4s;
+  box-shadow: 3px 3px 8px #000000;
+  display: none;
+}
+
+#small-icon{
+  font-size: 24px;
+}
+
+.scrollDown{
+  position: absolute;
+  top: 90%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  cursor: pointer;
+  background-color: #11273b;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
+  opacity: 0.8;
+  box-shadow: 3px 3px 8px #000000;
+}
+
+.scroll-text{
+  margin: 0px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1650px){
+  .scrollDown{
+    left: 54%;
+  }
+}
+
+@media screen and (max-width: 1350px){
+  .scrollDown{
+    left: 54.5%;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .scrollDown{
+    left: 55%;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .scrollDown{
+    left: 55.5%;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .scrollDown{
+    left: 56%;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .navbar, li{
+    display: none;
+  }
+  .header-text{
+    padding-left: 0;
+  }
+  .scrollTop{
+    display: block;
+  }
+  .scrollDown{
+    left: 50%;
+  }
+}
