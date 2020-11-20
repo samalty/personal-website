@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a6478af608fe9fba5a28",
-    "url": "/static/css/main.49cd4ac9.chunk.css"
+    "revision": "e2262e8bf82f173a6128",
+    "url": "/static/css/main.82ea2874.chunk.css"
   },
   {
-    "revision": "a6478af608fe9fba5a28",
-    "url": "/static/js/main.a6478af6.chunk.js"
+    "revision": "e2262e8bf82f173a6128",
+    "url": "/static/js/main.e2262e8b.chunk.js"
   },
   {
     "revision": "22b6a57a63e5b777af62",
@@ -104,7 +104,11 @@ self.__precacheManifest = [
     "url": "/static/media/colander3.53a4422e.PNG"
   },
   {
-    "revision": "b7d52a3fb77ba43dd26e2527f2013a9d",
+    "revision": "e8c9df3391c56187e8ebb909f33da143",
+    "url": "/static/media/background.e8c9df33.JPG"
+  },
+  {
+    "revision": "70a7812735c66194a4736eb8a79082f2",
     "url": "/index.html"
   }
 ];

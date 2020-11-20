@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.49cd4ac9.chunk.css",
-  "main.js": "/static/js/main.a6478af6.chunk.js",
-  "main.js.map": "/static/js/main.a6478af6.chunk.js.map",
+  "main.css": "/static/css/main.82ea2874.chunk.css",
+  "main.js": "/static/js/main.e2262e8b.chunk.js",
+  "main.js.map": "/static/js/main.e2262e8b.chunk.js.map",
   "static/css/1.ccb51ddb.chunk.css": "/static/css/1.ccb51ddb.chunk.css",
   "static/js/1.22b6a57a.chunk.js": "/static/js/1.22b6a57a.chunk.js",
   "static/js/1.22b6a57a.chunk.js.map": "/static/js/1.22b6a57a.chunk.js.map",
@@ -28,9 +28,10 @@
   "static/media/weatherapp2.PNG": "/static/media/weatherapp2.7801ed6a.PNG",
   "static/media/calculator.PNG": "/static/media/calculator.d8f76f38.PNG",
   "static/media/colander3.PNG": "/static/media/colander3.53a4422e.PNG",
-  "static/css/main.49cd4ac9.chunk.css.map": "/static/css/main.49cd4ac9.chunk.css.map",
+  "static/media/Home.css": "/static/media/background.e8c9df33.JPG",
+  "static/css/main.82ea2874.chunk.css.map": "/static/css/main.82ea2874.chunk.css.map",
   "static/css/1.ccb51ddb.chunk.css.map": "/static/css/1.ccb51ddb.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.360f144dccdd6626b3c8f118cd86435b.js": "/precache-manifest.360f144dccdd6626b3c8f118cd86435b.js",
+  "precache-manifest.175f0a7802f07ee97f5ec020a10a9ce7.js": "/precache-manifest.175f0a7802f07ee97f5ec020a10a9ce7.js",
   "service-worker.js": "/service-worker.js"
 }
