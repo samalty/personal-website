@@ -30,7 +30,7 @@ class Portfolio extends React.Component {
                 "descriptionlg": "A tax calculator helping contractors to determine the financial impact of the Off-Payroll legislation on their income. Provided with the contractor's daily rate and expenses, the calculator returns a detailed overview of their earnings and tax liabilities when affected and unaffected by the legislation.",
                 "languages": "React, JavaScript, HTML, CSS",
                 "github": "https://github.com/samalty/off-payroll-tax-calculator",
-                "live": "https://samalty.co.uk/off-payroll-tax-calculator/",
+                "live": "https://samalty.github.io/off-payroll-tax-calculator/",
                 "image": calculator
             },
             {
@@ -39,7 +39,7 @@ class Portfolio extends React.Component {
                 "descriptionlg": "An application providing an on-the-go, mobile alternative to the popular dinner party game, requiring players to describe randomly selected items to their team mates while up against the clock.",
                 "languages": "Vue, JavaScript, HTML & CSS",
                 "github": "https://github.com/samalty/vue-colander-game",
-                "live": "https://samalty.co.uk/vue-colander-game/",
+                "live": "https://samalty.github.io/vue-colander-game/",
                 "image": colander
             },
             {
@@ -48,7 +48,7 @@ class Portfolio extends React.Component {
                 "descriptionlg": "A static website designed to market the services of K2SocialMedia. This site was built using a mobile-first approach and incorporates several responsive features including a dynamic FAQs section and scroll-to-top buttons.",
                 "languages": "HTML, CSS, JavaScript & jQuery",
                 "github": "https://github.com/samalty/K2SM",
-                "live": "https://samalty.co.uk/K2SM/",
+                "live": "https://samalty.github.io/K2SM/",
                 "image": k2sm
             },
             {
@@ -57,7 +57,7 @@ class Portfolio extends React.Component {
                 "descriptionlg": "An application providing users with access to weather conditions in a specified UK region by amending API calls via search bar input. This app also uses JavaScript to trigger time and weather-dependent CSS features.",
                 "languages": "HTML, CSS, JavaScript & jQuery",
                 "github": "https://github.com/samalty/weather-query-app",
-                "live": "https://samalty.co.uk/weather-query-app/",
+                "live": "https://samalty.github.io/weather-query-app/",
                 "image": weatherapp
             },
             {

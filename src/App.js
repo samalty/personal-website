@@ -33,55 +33,55 @@ class App extends Component {
     scrollToComponent(this.Home, {offset: 0, align: 'top', duration: 1000, ease: 'inCirc'});
   }
   render() {
+    window.addEventListener('scroll', () => {
+      const element = document.getElementById("nav");
+      //const button = document.getElementById("scrollTop");
+      if (window.scrollY > 50) {
+          element.classList.add('scrolled');
+      } else element.classList.remove('scrolled');
+      //if (window.pageYOffset > 1000) {
+      //    button.classList.add('visible');
+      //} else button.classList.remove('visible');
+    });
     return (
       <div className="App">
         <header className="App-header">
           <div className="navbar-container">
-            <nav className="navbar">
+            <nav className="navbar" id="nav">
               <ul>
-                <li className="nav-tab hvr-sweep-to-right" 
-                    onMouseEnter={this.toggleNav} 
+                <li onMouseEnter={this.toggleNav} 
                     onMouseLeave={this.toggleNav}>
                   <a className="click-scroll" 
                      onClick={() => scrollToComponent(this.Home, {offset: 0, align: 'top', duration: 1000, ease: 'inCirc'})}>
-                    <i className="material-icons">home</i>
-                    <p className={this.state.toggleNav ? 'nav-text-hidden' : 'nav-text animated fadeInDown'}>Home</p>
+                    <p className="nav-text">Home |</p>
                   </a>
                 </li>
-                <li className="nav-tab hvr-sweep-to-right" 
-                    onMouseEnter={this.toggleNav} 
+                <li onMouseEnter={this.toggleNav} 
                     onMouseLeave={this.toggleNav}>
                   <a className="click-scroll" 
                      onClick={() => scrollToComponent(this.About, {offset: 0, align: 'top', duration: 1000, ease: 'inCirc'})}>
-                    <i className="material-icons">person_outline</i>
-                    <p className={this.state.toggleNav ? 'nav-text-hidden' : 'nav-text animated fadeInDown'}>About</p>
+                    <p className="nav-text"> About |</p>
                   </a>
                 </li>
-                <li className="nav-tab hvr-sweep-to-right" 
-                    onMouseEnter={this.toggleNav} 
+                <li onMouseEnter={this.toggleNav} 
                     onMouseLeave={this.toggleNav}>
                   <a className="click-scroll" 
                      onClick={() => scrollToComponent(this.Skills, {offset: 0, align: 'top', duration: 1000, ease: 'inCirc'})}>
-                    <i className="material-icons">code</i>
-                    <p className={this.state.toggleNav ? 'nav-text-hidden' : 'nav-text animated fadeInDown'}>Experience</p>
+                    <p className="nav-text"> Experience |</p>
                   </a>
                 </li>
-                <li className="nav-tab hvr-sweep-to-right"
-                    onMouseEnter={this.toggleNav} 
+                <li onMouseEnter={this.toggleNav} 
                     onMouseLeave={this.toggleNav}>
                   <a className="click-scroll" 
                      onClick={() => scrollToComponent(this.Portfolio, {offset: 0, align: 'top', duration: 1000, ease: 'inCirc'})}>
-                    <i className="material-icons">laptop</i>
-                    <p className={this.state.toggleNav ? 'nav-text-hidden' : 'nav-text animated fadeInDown'}>Portfolio</p>
+                    <p className="nav-text"> Portfolio |</p>
                   </a>
                 </li>
-                <li className="nav-tab hvr-sweep-to-right bottom" 
-                    onMouseEnter={this.toggleNav} 
+                <li onMouseEnter={this.toggleNav} 
                     onMouseLeave={this.toggleNav}>
                   <a className="click-scroll" 
                      onClick={() => scrollToComponent(this.Contact, {offset: 0, align: 'top', duration: 1000, ease: 'inCirc'})}>
-                    <i className="material-icons">comment</i>
-                    <p className={this.state.toggleNav ? 'nav-text-hidden' : 'nav-text animated fadeInDown'}>Contact</p>
+                    <p className="nav-text"> Contact</p>
                   </a>
                 </li>
               </ul>
@@ -113,7 +113,7 @@ class App extends Component {
           </div>
         </body>
         <p></p>
-        <button className="scrollTop" 
+        <button className="scrollTop" id="scrollTop"
                 onClick={() => scrollToComponent(this.Home, {offset: 0, align: 'top', duration: 1000, ease: 'inCirc'})}>
           <i className="material-icons" id="small-icon">keyboard_arrow_up</i>
         </button>

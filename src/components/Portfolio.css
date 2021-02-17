@@ -1,9 +1,8 @@
 .portfolio{
     margin-top: 110px;
-    padding-top: 25px;
+    padding-top: 80px;
     padding-bottom: 50px;
     margin: auto;
-    padding-left: 120px;
     background-color: #001a33;
     background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
     text-align: center;
@@ -17,8 +16,6 @@
     min-width: 500px;
     height: 100%;
     margin: 0 auto;
-    background-color: #001a33;
-    background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
     text-align: center;
     align-items: center;
 }
@@ -86,7 +83,6 @@ body,
 
 @media screen and (max-width: 950px){
     .portfolio{
-        padding-left: 0;
         background-color: #001a33;
         background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
     }

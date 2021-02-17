@@ -1,8 +1,16 @@
 .home{
-    padding-left: 120px;
-    background-color: #f2f2f2;
-    background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
+    background-image: url('../media/background.JPG');
+    background-repeat: round;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
+}
+
+.home-overlay{
+    height: 100vh;
+    background-color:rgba(0, 26, 51, 0.8);
 }
 
 .home-container{

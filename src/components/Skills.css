@@ -1,8 +1,8 @@
 .skills{
     display: flex;
     justify-content: center;
-    padding-left: 120px;
-    padding-bottom: 25px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     text-align: center;
     background-color: #f2f2f2;
     background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
@@ -11,9 +11,6 @@
 .skills-container{
     max-width: 800px;
     margin: auto;
-    background-color: #f2f2f2;
-    background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
-    padding: 25px;
 }
 
 html,
